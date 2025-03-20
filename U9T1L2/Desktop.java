@@ -10,4 +10,9 @@ public class Desktop extends Computer {
     public void replaceTowerCasing() {
         System.out.println("Replaced tower case!");
     }
+    @Override
+    public void printInfo() {
+        super.printInfo();
+        System.out.println("Monitor included? " + monitorIncluded);
+    }
 }
