@@ -22,7 +22,7 @@ public class VehicleRunner {
         //    and whether a discount has been applied.
         //
         // d. call the method on the Car you made in c to test it.
-        car.printCar();
+        // car.printCar();
 
 
 
@@ -39,14 +39,14 @@ public class VehicleRunner {
         //    and whether it has a trailer.
         //
         // g. call the method on the Truck you made in e to test it.
-        truck.printTruck();
+        // truck.printTruck();
 
 
 
         // ------------ LAB PART 2 ---------------
         // ----- instructions in lab sheet -------
         Taxi taxi = new Taxi("8KM23Z", 9.25, 3, true, 5.00);
-        taxi.printTaxi();
+        // taxi.printTaxi();
         System.out.println(taxi.getFareCollected());
         System.out.println(taxi.getLicensePlate());
         System.out.println(taxi.getPassengers());
@@ -54,8 +54,8 @@ public class VehicleRunner {
         System.out.println(taxi.isDiscountApplied());
         System.out.println(taxi.isElectric());
         System.out.println(taxi.calculateTollPrice());
-        taxi.printCar();
-        taxi.printTaxi();
+        // taxi.printCar();
+        // taxi.printTaxi();
         System.out.println(taxi instanceof Car);
         System.out.println(taxi instanceof Vehicle);
 

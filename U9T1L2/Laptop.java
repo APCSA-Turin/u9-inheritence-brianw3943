@@ -17,10 +17,6 @@ public class Laptop extends Computer {
         }
     }
     @Override
-    public void installOperatingSystem() {
-        System.out.println("installing OS on my Laptop...");
-    }
-    @Override
     public void printInfo() {
         super.printInfo();
         System.out.println("Trackpad Calibrated? " + trackPadCalibrated);
